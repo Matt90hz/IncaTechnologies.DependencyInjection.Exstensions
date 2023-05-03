@@ -16,10 +16,21 @@
     <PackageReleaseNotes>1.0.0 - Release</PackageReleaseNotes>
     <PackageOutputPath>..\.nupkg</PackageOutputPath>
     <NeutralLanguage>en</NeutralLanguage>
+    <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
+    <RepositoryUrl>https://github.com/Matt90hz/IncaTechnologies.DependencyInjection.Exstensions.git</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/Matt90hz/IncaTechnologies.DependencyInjection.Exstensions</PackageProjectUrl>
   </PropertyGroup>
 
   <ItemGroup>
     <None Include="..\..\..\IncaTechnologies\IncaTechnologies_logo_128x128.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Include="..\LICENSE.txt">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Include="..\README.md">
       <Pack>True</Pack>
       <PackagePath>\</PackagePath>
     </None>
